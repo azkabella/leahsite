@@ -3,15 +3,18 @@ a {
   text-decoration:none;
 }
 body {
+  background-color: #f3f3f3;
+  font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
   padding-top:80px;
 }
 h1 {
-  font-family: Tangerine;
-  background-color:#ccc;
-  color: white;
-  font-size: 3rem;
-  width:100%;
-  padding: 20px 0 20px 0px;
+  color: #111;
+  padding: 0 0 20px 0;
+  font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+  font-weight: 300;
+  text-align:center;
+}
+h2 {
   text-align:center;
 }
 /*********CLASS SELECTORS*********/
@@ -19,7 +22,7 @@ h1 {
   font-size: 2rem;
   width:100%;
   text-align:center;
-  padding: 10px 0 20px 0;
+  padding: 10px 0 0 0;
 }
 .carousel-content {
   position: absolute;
@@ -29,10 +32,23 @@ h1 {
   color: white;
   text-shadow: 0 1px 2px rgba(0,0,0,.6);
 }
+.rose-border {
+  margin: 0 auto;
+  text-align:center;
+}
+.rose-img {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
 .bio-photo {
   float:right;
-  width:30%;
   padding-left:10px;
+  width: 30%;
+}
+.resume {
+  text-align: center;
+  font-size: 1.25rem;
 }
 .bottom-container {
   font-size:.8rem;
