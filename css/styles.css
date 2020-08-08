@@ -1,7 +1,24 @@
 /*********TAG SELECTORS*********/
-a {
-  text-decoration:none;
+/* unvisited link */
+a:link {
+  text-decoration: none;
 }
+
+/* visited link */
+a:visited {
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  text-decoration: none;
+}
+
 body {
   background-color: #f3f3f3;
   font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
@@ -22,7 +39,7 @@ h2 {
   font-size: 2rem;
   width:100%;
   text-align:center;
-  padding: 10px 0 0 0;
+  padding: 10px 0 10px 0;
 }
 .carousel-content {
   position: absolute;
